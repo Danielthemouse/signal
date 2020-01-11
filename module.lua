@@ -52,6 +52,20 @@ local translations = {
 		
 		close = "Bezár",
 	},
+	he = {
+		-- Init
+		welcome = "ברוכים הבאים אל <PS>#Signal<S>! עקבו אחרי הרמזורים והיכנסו למחילה! השתמשו ב- !help מכדי לקבל עוד מידע ושלחו מפות ב- https://atelier801.com/topic?f=6&t=859064.\n\t דווחו כל בעיה אל Bolodefchoco#0000",
+		
+		-- Info
+		info = {
+			[1] = {"רוצו", "רוצו כמה שיותר מהר. אל תעצרו!"},
+			[2] = {"שימו לב", "אתם יכולים למות בכמה שניות הבאות!"},
+			[3] = {"עצרו", "עצרו או שתמותו!"},
+		},
+		
+		-- Simple words
+		close = "סגור",
+	},
 }
 local translation = translations[tfm.get.room.community] or translations.en
 
